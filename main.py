@@ -8,7 +8,7 @@ altura_contenedor_chat = 600
 stream_status = True
 
 #CONSTANTES
-MODELOS = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "meta-llama/llama-guard-4-12b"]
+MODELOS = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "openai/gpt-oss-120b"]
 
 #FUNCIONES
 
@@ -92,4 +92,5 @@ def main():
           st.rerun()
 
 if __name__ == "__main__":
+
     main()
